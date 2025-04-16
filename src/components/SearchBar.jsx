@@ -1,29 +1,24 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const SearchBar = ({ onSearch }) => {
-  const [term, setTerm] = useState("");
+  const [term, setTerm] = useState('');
 
-  const handleSearch = () => {
-    onSearch(term);
-  };
+  useEffect(() => {
+    onSearch(term.toLowerCase());
+  }, [term]);
 
   return (
     <div className="p-4 pt-2 flex justify-center">
       <input
         type="text"
-        placeholder="Search businesses"
+        placeholder="Search businesses..."
         value={term}
         onChange={(e) => setTerm(e.target.value)}
-        className="border p-2 w-1/2 rounded-l"
+        className="w-full md:w-1/2 px-5 py-3 border border-gray-300 bg-white text-black placeholder-gray-500 rounded-full shadow focus:outline-none focus:ring-2 focus:ring-blue-400"
       />
-      <button
-        onClick={handleSearch}
-        className="bg-blue-600 text-white px-4 rounded-r"
-      >
-        Search
-      </button>
     </div>
   );
 };
 
 export default SearchBar;
+
