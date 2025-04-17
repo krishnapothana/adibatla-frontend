@@ -4,7 +4,7 @@ const SearchBar = ({ onSearch }) => {
   const [term, setTerm] = useState('');
 
   useEffect(() => {
-    onSearch(term.toLowerCase());
+    onSearch(term.toLowerCase());      // handleSearch is passed as onSearch prop
   }, [term]);
 
   return (
