@@ -1,9 +1,7 @@
-import React from 'react';
-
 const TabSwitcher = ({ currentTab, setCurrentTab }) => {
   return (
     <div className="flex gap-4 border-b pb-2 mb-4">
-      {['Posts', 'Reviews'].map((tab) => (
+      {['Posts', 'Items', 'Reviews'].map((tab) => (
         <button
           key={tab}
           onClick={() => setCurrentTab(tab)}

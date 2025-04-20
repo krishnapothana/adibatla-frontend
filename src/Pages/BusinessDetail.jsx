@@ -11,6 +11,7 @@ import BusinessPosts from '../components/business/BusinessPosts';
 import BusinessReviews from '../components/business/BusinessReviews';
 import AddReviewForm from '../components/business/AddReviewForm';
 import TabSwitcher from '../components/business/TabSwitcher';
+import BusinessItems from '../components/business/BusinessItems'; // ✅ new import
 
 const BusinessDetail = () => {
   const { id } = useParams();
@@ -49,9 +50,12 @@ const BusinessDetail = () => {
         <BusinessInfo business={business} avgRating={avgRating} />
         <TabSwitcher currentTab={currentTab} setCurrentTab={setCurrentTab} />
 
-        {/* Wrap dynamic tab content in full-width container to avoid width shrinking */}
         <div className="w-full min-h-[500px]">
           {currentTab === 'Posts' && <BusinessPosts posts={businessPosts} />}
+
+          {currentTab === 'Items' && (
+            <BusinessItems items={business.items} />
+          )}
 
           {currentTab === 'Reviews' && (
             <div className="space-y-6">

@@ -1,163 +1,363 @@
 const businesses = [
   {
     "id": 1,
-    "name": "Bennett, Hernandez and Morris",
+    "name": "Goodwin, Walters and Howell",
     "type": "Internet Cafe",
-    "description": "Assimilated transitional algorithm",
-    "address": "666 Noah Knolls, Lake Emilyburgh, VA 72160",
-    "contact": "+1-396-387-7470x29842"
+    "description": "Upgradable background initiative",
+    "address": "21448 Butler Unions Suite 758, South Derrickborough, KS 10427",
+    "contact": "001-598-928-1512x722",
+    "items": [
+      "biscuits",
+      "pen",
+      "fried rice",
+      "bread",
+      "soap",
+      "pizza"
+    ]
   },
   {
     "id": 2,
-    "name": "Smith LLC",
+    "name": "Martinez-Ray",
     "type": "Bakery",
-    "description": "Reduced radical conglomeration",
-    "address": "53904 Nicole Station Apt. 498, Lake Aaronborough, WI 94145",
-    "contact": "(082)089-4963x4563"
+    "description": "Diverse content-based capacity",
+    "address": "Unit 1744 Box 4613, DPO AA 03470",
+    "contact": "001-645-014-8362x07893",
+    "items": [
+      "pen",
+      "egg biryani",
+      "burger",
+      "biscuits",
+      "pizza",
+      "notebook",
+      "soap",
+      "bread"
+    ]
   },
   {
     "id": 3,
-    "name": "King, Powell and Gilmore",
-    "type": "Cafe",
-    "description": "Synergistic interactive protocol",
-    "address": "3131 Hernandez Parkways, Harmonview, IN 57805",
-    "contact": "001-520-271-5626"
+    "name": "Knox-Perez",
+    "type": "Internet Cafe",
+    "description": "Object-based 6thgeneration encoding",
+    "address": "920 Matthews Glen Suite 389, New Richardton, ND 24365",
+    "contact": "6694917379",
+    "items": [
+      "fried rice",
+      "soap",
+      "egg biryani",
+      "pencil",
+      "paneer tikka",
+      "grilled sandwich",
+      "cold drink",
+      "chocolate cake",
+      "chicken biryani",
+      "pizza"
+    ]
   },
   {
     "id": 4,
-    "name": "Charles Inc",
+    "name": "Bender, Rojas and Jones",
     "type": "Grocery",
-    "description": "Team-oriented web-enabled concept",
-    "address": "270 Melissa Pass Suite 516, Lake Michaelbury, AR 45527",
-    "contact": "263.535.6808x39862"
+    "description": "Quality-focused coherent success",
+    "address": "896 Nguyen Groves, Williamsfurt, WY 79899",
+    "contact": "+1-972-490-2297x1207",
+    "items": [
+      "chocolate cake",
+      "fried rice",
+      "pen",
+      "soap",
+      "black forest cake",
+      "toothbrush",
+      "burger"
+    ]
   },
   {
     "id": 5,
-    "name": "Thomas and Sons",
-    "type": "Internet Cafe",
-    "description": "Total next generation customer loyalty",
-    "address": "USCGC Jones, FPO AE 57131",
-    "contact": "001-750-540-9827x06217"
+    "name": "Humphrey-Mcintyre",
+    "type": "Cafe",
+    "description": "Fully-configurable tangible challenge",
+    "address": "09537 Timothy Locks, Jasonport, SC 87227",
+    "contact": "008-643-5560x730",
+    "items": [
+      "veg biryani",
+      "pencil",
+      "biscuits",
+      "hair oil",
+      "chocolate cake",
+      "burger",
+      "pizza"
+    ]
   },
   {
     "id": 6,
-    "name": "Mcintyre-Gould",
-    "type": "Salon",
-    "description": "Distributed encompassing moratorium",
-    "address": "9460 Carey Square Apt. 060, Nolanhaven, NC 76242",
-    "contact": "994-263-8633x293"
+    "name": "Shelton-Curry",
+    "type": "Bakery",
+    "description": "User-friendly incremental array",
+    "address": "8862 Kenneth Vista, Richardside, IL 48685",
+    "contact": "(627)748-1578x121",
+    "items": [
+      "pastry",
+      "chicken biryani",
+      "bread",
+      "black forest cake",
+      "egg biryani",
+      "milk",
+      "mutton curry",
+      "hair oil",
+      "comb",
+      "grilled sandwich"
+    ]
   },
   {
     "id": 7,
-    "name": "Williams Group",
-    "type": "Bakery",
-    "description": "Profound user-facing help-desk",
-    "address": "13783 Price Ford Suite 622, Port Christopher, WI 58385",
-    "contact": "525.252.3710"
+    "name": "Berger PLC",
+    "type": "Grocery",
+    "description": "Triple-buffered interactive task-force",
+    "address": "4509 Raymond Mews Suite 887, Lake Stephanie, DE 26669",
+    "contact": "053.255.6387",
+    "items": [
+      "biscuits",
+      "pen",
+      "egg biryani",
+      "pastry",
+      "milk",
+      "paneer tikka"
+    ]
   },
   {
     "id": 8,
-    "name": "Taylor Inc",
-    "type": "Internet Cafe",
-    "description": "Proactive optimizing middleware",
-    "address": "80623 Catherine Curve Apt. 593, Hudsonton, CA 79812",
-    "contact": "537.404.9477x650"
+    "name": "Miller-Gomez",
+    "type": "Restaurant",
+    "description": "Operative multi-state application",
+    "address": "94199 Jennifer Walks, West Kirkmouth, NM 94376",
+    "contact": "+1-432-976-4419x6879",
+    "items": [
+      "pizza",
+      "chicken biryani",
+      "cold drink",
+      "pen",
+      "fried rice",
+      "grilled sandwich",
+      "comb",
+      "milk",
+      "shampoo"
+    ]
   },
   {
     "id": 9,
-    "name": "Potter-Briggs",
-    "type": "Bakery",
-    "description": "Synergistic secondary intranet",
-    "address": "25750 Amy Canyon, Mirandaburgh, OH 22520",
-    "contact": "420.252.7345x8129"
+    "name": "Paul, Watson and Mitchell",
+    "type": "Cafe",
+    "description": "Switchable bandwidth-monitored structure",
+    "address": "484 Bernard Fields Apt. 757, New Sonya, ID 70889",
+    "contact": "+1-531-899-1612x2294",
+    "items": [
+      "comb",
+      "milk",
+      "paneer tikka",
+      "pizza",
+      "black forest cake",
+      "hair oil",
+      "notebook",
+      "soap",
+      "mutton curry",
+      "chocolate cake"
+    ]
   },
   {
     "id": 10,
-    "name": "Wright-Liu",
-    "type": "Internet Cafe",
-    "description": "Cross-platform incremental forecast",
-    "address": "894 Hernandez Pass, Lindaport, DC 65490",
-    "contact": "+1-501-188-9609x68328"
+    "name": "Cohen and Sons",
+    "type": "Bakery",
+    "description": "Re-engineered systemic protocol",
+    "address": "966 Harrison Crossing Apt. 229, East Brian, NY 18499",
+    "contact": "(357)528-7993",
+    "items": [
+      "shampoo",
+      "hair oil",
+      "biscuits",
+      "comb",
+      "pen",
+      "pastry",
+      "pencil",
+      "burger",
+      "pizza"
+    ]
   },
   {
     "id": 11,
-    "name": "Santana Group",
-    "type": "Cafe",
-    "description": "Exclusive asymmetric product",
-    "address": "959 Dale Avenue, West Amanda, CA 57341",
-    "contact": "708.655.5656"
+    "name": "Leon Inc",
+    "type": "Internet Cafe",
+    "description": "Function-based fresh-thinking middleware",
+    "address": "09796 Melissa Well, Kellyview, GA 89000",
+    "contact": "001-170-028-5570x481",
+    "items": [
+      "veg biryani",
+      "fried rice",
+      "pencil",
+      "egg biryani",
+      "hair oil",
+      "chocolate cake",
+      "pizza"
+    ]
   },
   {
     "id": 12,
-    "name": "Allen-Thompson",
-    "type": "Internet Cafe",
-    "description": "Polarized reciprocal architecture",
-    "address": "00070 Ramirez Passage Suite 998, Lake Christopher, CT 16182",
-    "contact": "+1-052-535-8558x14013"
+    "name": "Reilly-Davidson",
+    "type": "Salon",
+    "description": "Open-architected homogeneous system engine",
+    "address": "23871 George Plains, East Megan, KY 09631",
+    "contact": "447-023-3135",
+    "items": [
+      "soap",
+      "toothbrush",
+      "pencil",
+      "mutton curry",
+      "fried rice",
+      "cold drink",
+      "paneer tikka",
+      "hair oil",
+      "bread",
+      "veg biryani"
+    ]
   },
   {
     "id": 13,
-    "name": "Mcknight, Gonzalez and Robinson",
-    "type": "Restaurant",
-    "description": "Automated mobile moratorium",
-    "address": "28179 Michael Meadow Suite 437, Gonzalezfurt, NV 97756",
-    "contact": "(083)843-3844x2884"
+    "name": "Mays, Vasquez and Mills",
+    "type": "Bakery",
+    "description": "Managed impactful moderator",
+    "address": "Unit 8876 Box 8982, DPO AP 88309",
+    "contact": "413-909-2676",
+    "items": [
+      "grilled sandwich",
+      "chocolate cake",
+      "pastry",
+      "soap",
+      "biscuits"
+    ]
   },
   {
     "id": 14,
-    "name": "Ingram-Henry",
+    "name": "Martin, Shepard and Hernandez",
     "type": "Bakery",
-    "description": "Ergonomic holistic monitoring",
-    "address": "6042 Torres Plains, Briannaview, GA 98059",
-    "contact": "001-107-825-7175x3785"
+    "description": "Advanced mission-critical customer loyalty",
+    "address": "1551 Quinn River Suite 500, North Robert, AL 91834",
+    "contact": "682.846.0933",
+    "items": [
+      "grilled sandwich",
+      "veg biryani",
+      "fried rice",
+      "cold drink",
+      "shampoo",
+      "pencil",
+      "toothbrush",
+      "comb"
+    ]
   },
   {
     "id": 15,
-    "name": "Johnson-Ibarra",
-    "type": "Internet Cafe",
-    "description": "Up-sized 4thgeneration instruction set",
-    "address": "737 Melanie Bypass, Sanchezton, TX 36810",
-    "contact": "(195)481-5295"
+    "name": "Johnson-Edwards",
+    "type": "Restaurant",
+    "description": "Upgradable optimizing paradigm",
+    "address": "5135 Daniel Forest Apt. 215, Joemouth, OH 69341",
+    "contact": "(608)972-7048x3533",
+    "items": [
+      "cold drink",
+      "soap",
+      "paneer tikka",
+      "notebook",
+      "chocolate cake",
+      "biscuits",
+      "mutton curry",
+      "grilled sandwich"
+    ]
   },
   {
     "id": 16,
-    "name": "Stewart, Taylor and Morris",
-    "type": "Salon",
-    "description": "Synchronized executive flexibility",
-    "address": "9130 Acosta Underpass, Port Donna, WY 98354",
-    "contact": "4693664233"
+    "name": "Jackson, Randolph and Smith",
+    "type": "Cafe",
+    "description": "Focused demand-driven architecture",
+    "address": "0728 Nash Burgs Suite 306, Port Michellebury, VA 82837",
+    "contact": "001-673-599-4174",
+    "items": [
+      "mutton curry",
+      "shampoo",
+      "paneer tikka",
+      "hair oil",
+      "black forest cake",
+      "comb",
+      "burger",
+      "pen"
+    ]
   },
   {
     "id": 17,
-    "name": "Ballard Inc",
-    "type": "Salon",
-    "description": "Programmable mission-critical product",
-    "address": "6681 Woodward Radial Apt. 128, Pearsonview, MN 09382",
-    "contact": "001-150-632-3283x3198"
+    "name": "Ferguson Ltd",
+    "type": "Grocery",
+    "description": "Phased needs-based moratorium",
+    "address": "81634 Long Causeway Suite 744, Masontown, AZ 62830",
+    "contact": "(497)495-3945",
+    "items": [
+      "notebook",
+      "pastry",
+      "chicken biryani",
+      "biscuits",
+      "pen",
+      "pencil",
+      "comb"
+    ]
   },
   {
     "id": 18,
-    "name": "Smith, Thompson and Benson",
-    "type": "Bakery",
-    "description": "Universal coherent time-frame",
-    "address": "USNV Williams, FPO AA 73026",
-    "contact": "911-522-8883x18232"
+    "name": "Jones, Williams and Reyes",
+    "type": "Grocery",
+    "description": "Down-sized non-volatile application",
+    "address": "954 Aimee Terrace, North Danielle, CA 25598",
+    "contact": "(143)252-0773x74446",
+    "items": [
+      "grilled sandwich",
+      "fried rice",
+      "notebook",
+      "bread",
+      "biscuits",
+      "toothbrush"
+    ]
   },
   {
     "id": 19,
-    "name": "Johnston Inc",
-    "type": "Bakery",
-    "description": "Progressive intangible pricing structure",
-    "address": "589 Williams Extension Suite 762, Port Stephanie, TX 09606",
-    "contact": "(824)668-9707x367"
+    "name": "Randall, Smith and Chandler",
+    "type": "Internet Cafe",
+    "description": "Total interactive extranet",
+    "address": "662 David Haven, Lake Cynthia, OH 37187",
+    "contact": "(031)077-1647x4174",
+    "items": [
+      "egg biryani",
+      "paneer tikka",
+      "chocolate cake",
+      "soap",
+      "pastry",
+      "bread",
+      "grilled sandwich",
+      "chicken biryani",
+      "pizza"
+    ]
   },
   {
     "id": 20,
-    "name": "Leblanc Inc",
-    "type": "Salon",
-    "description": "Synergistic asynchronous structure",
-    "address": "4809 Adams Island, Lake Peterborough, UT 74917",
-    "contact": "+1-136-009-7322x913"
+    "name": "Cooley, Hendrix and George",
+    "type": "Internet Cafe",
+    "description": "Persistent grid-enabled core",
+    "address": "14580 Smith Ville Suite 646, Michelestad, CT 94333",
+    "contact": "001-856-330-5108x05362",
+    "items": [
+      "black forest cake",
+      "mutton curry",
+      "fried rice",
+      "burger",
+      "chicken biryani",
+      "biscuits",
+      "notebook",
+      "veg biryani",
+      "comb",
+      "pizza"
+    ]
   }
 ];
 export default businesses;
